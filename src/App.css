@@ -111,3 +111,71 @@
 .card__front__info p:nth-child(2) {
   margin-right: 15px;
 }
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form form {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form label {
+  color: var(--veryDarkViolet);
+  letter-spacing: 1px;
+  font-size: .7rem;
+  margin-bottom: 6px;
+}
+
+form label:nth-child(3),
+form label:nth-child(5) {
+  margin-top: 14px;
+}
+
+form label:nth-child(5) {
+  display: flex;
+  gap: 30px;
+  letter-spacing: 1px;
+}
+.form input {
+  padding: 10px;
+   border-radius: 8px;
+   border: 1px solid var(--darkGrayishViolet);
+}
+
+.form input::placeholder {
+  color: var(--lightGrayishViolet);
+  font-size: 1rem;
+}
+
+.form__details {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.form__details input:nth-child(1),
+.form__details input:nth-child(2)  {
+  width: 40px;
+}
+
+.form__details input:nth-child(3) {
+  width: 120px;
+} 
+
+.form button {
+  margin-top: 14px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--veryDarkViolet);
+  color: #fff;
+  font-weight: bold;
+}
